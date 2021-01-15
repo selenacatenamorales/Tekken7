@@ -1,8 +1,20 @@
 body{
     font-family: Orbitron;
     background-color: black;
+    color: white;
 }
-
+#Hola{
+    font-family: Arial;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.dropdown-toggle{
+    background-color: #6B0504;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #808080
+}
 .navbar{
     background-color:#6B0504 ;
 }
