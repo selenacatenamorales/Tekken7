@@ -6,11 +6,23 @@ body{
 #Hola{
     font-family: Arial;
 }
+
+#copyright{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .navbar-inverse .navbar-nav>li>a {
     color: white;
+    margin-left: 100px;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background-color: #6B0504;
 }
 .dropdown-toggle{
     background-color: #6B0504;
+}
+.navbar-nav>li>.dropdown-menu{
+    margin-left: 99px;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
     color: #808080
@@ -25,4 +37,12 @@ body{
 
 .footer{
     background-color:#6B0504
+}
+.navbar-fixed-bottom{
+    color: black;
+}
+
+#logo{
+    margin-top: -13px;
+    margin-left: 15px;
 }
