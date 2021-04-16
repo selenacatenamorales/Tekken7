@@ -49,14 +49,16 @@
           </summary>
 
           <p>Una transició per tu :)</p>
+          <style>
 
-          <script>
-            var transicio = document.getElementById("transicio")
-            transicio.addEventListener("click", function(){
-              transicio.style.transition = "all 2s ease";
-              transicio.style.transform = "scale(0.5)";
-            })
-          </script>
+          #transicio {
+            transition: all 3s ease;
+          }
+          #transicio:hover {
+            transform: scale(0.25);
+            fill: blue;
+          }
+        </style>
 
         </details>
 
