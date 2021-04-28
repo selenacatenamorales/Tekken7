@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Tekken 7</title>
+    <title dir="ltr">Inicio</title>
     <link rel= "icon" type= "image/png" href = "fotos/icono.svg" style="height: 15px"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">      
@@ -17,28 +17,36 @@
     <nav class="navbar navbar-inverse navbar-fixed-top text-white">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand"><img id="logo"src="fotos/icono.svg" style="height: 40px"></a>
+            <a class="navbar-brand"><img id="logo"src="fotos/icono.svg" alt="Logo de la web" style="height: 40px"></a>
           </div>
           <ul class="nav navbar-nav">
             <li ><a href="index.html" >INICIO</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="personajes.html">PERSONAJES
+              <a dir="ltr" class="dropdown-toggle" data-toggle="dropdown" href="personajes.html">PERSONAJES
               <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="paul.html">PAUL</a></li>
-                <li><a href="law.html">LAW</a></li>
-                <li><a href="#">PERSONAJE 3</a></li>
-              </ul>
+              <div class="dropdown-menu">
+                <a dir="ltr" href="paul.html">PAUL</a>
+                <a dir="ltr" href="law.html">LAW</a>
+                <a dir="ltr" href="#">PERSONAJE 3</a>
+              </div>
             </li>
-            <li><a href="conceptos.html">CONCEPTOS</a></li>
-            <li><a href="mundo_competitivo.html">MUNDO COMPETITIVO</a></li>
+            <li><a dir="ltr" href="conceptos.html">CONCEPTOS</a></li>
+            <li><a dir="ltr" href="mundo_competitivo.html">MUNDO COMPETITIVO</a></li>
+
+
+
+            <li><a dir="ltr" href="index_audio.html">AUDIO</a></li>
+            <li><a dir="ltr" href="index_video.html">VIDEO</a></li>
+            <li><a dir="ltr" href="index_transicions.html">TRANSICIONS</a></li>
+            <li><a dir="ltr" href="index_interactiu.html">INTERACTIU</a></li>
+
           </ul>
         </div>
       </nav>
       <br>
       <br>
       <div class="text-center foto">
-        <img src="fotos/Tekken Inicio.jpg" style="height: 425px" class="rounded">
+        <img src="fotos/Tekken Inicio.jpg" alt="Lidia Sobieska en Island Paradise, el nuevo mapa del juego" style="height: 600px" class="rounded">
       </div>
       <div class="text-align texto">
         <p>Tekken 7 es un videojuego de lucha desarrollado y distribuido por Namco Bandai Games. 
@@ -60,7 +68,7 @@
             }
           </style>
           <video id ="video" loop autoplay preload muted>
-            <source src="videos/michelle.mp4" type="video/mp4">
+            <source src="videos/michelle.mp4" alt="Video de Michelle en Tekken 2" type="video/mp4">
               Your browser does not support this video tag
           </video>
           <br>
@@ -70,7 +78,7 @@
           
 
           <video autoplay muted>
-            <source src="videos/jun.mp4" type="video/mp4">
+            <source src="videos/jun.mp4" alt="Video de Jun en Tekken 2" type="video/mp4">
               Your browser does not support this video tag
           </video>
         
@@ -78,7 +86,7 @@
         <br>
         
         <video autoplay loop muted>
-            <source src="videos/paul.mp4" type="video/mp4">
+            <source src="videos/paul.mp4" alt="Video de Paul en Tekken 2" type="video/mp4">
               Your browser does not support this video tag
         </video>
     

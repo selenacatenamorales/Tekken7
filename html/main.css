@@ -13,11 +13,13 @@ body{
     color: white;
     margin-left: 100px;
 }
-.dropdown-menu>li>a{
+.dropdown-menu>a{
     color: white;
+    margin-right: 100%;
+    text-decoration: none;
 }
 
-.dropdown-menu>li>a:hover{
+.dropdown-menu>a:hover{
     color: #808080;
     background-color: #6B0504;
 }
@@ -51,5 +53,5 @@ body{
 
 #logo{
     margin-top: -13px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
